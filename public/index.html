@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload CSV/XLSX</title>
+</head>
+<body>
+  <h1>Upload CSV/XLSX File</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+  </form>
+
+  <!-- <h2>Search Policy by Username</h2>
+  <form action="/search" method="get">
+    <input type="text" name="username" placeholder="Enter Username" />
+    <button type="submit">Search</button>
+  </form> -->
+
+  <h2>Message</h2>
+  <form action="/message" method="post">
+    <button type="submit">Message</button>
+  </form>
+
+</body>
+</html>
